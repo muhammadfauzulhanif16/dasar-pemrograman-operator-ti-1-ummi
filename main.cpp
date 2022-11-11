@@ -9,7 +9,6 @@ int main() {
   cout << "4. 4 / 2 = " << 4 / 2 << endl;
   // Operator aritmatika
 
-  cout << endl;
 
   // Operator aritmatika gabungan dengan penugasan
   int a = 0,
@@ -30,7 +29,6 @@ int main() {
   cout << "8. d = 4 -> d /= 2 = " << d << endl;
   // Operator aritmatika gabungan dengan penugasan
 
-  cout << endl;
 
   // Operator increment
   int e = 16,
@@ -46,7 +44,6 @@ int main() {
   cout << "g = " << g << endl;
   // Operator increment
 
-  cout << endl;
 
   // Operator relasi
   int h = 16,
@@ -72,7 +69,6 @@ int main() {
   cout << "16. 16 <= 4 = " << hasil_relasi << endl;
   // Operator relasi
 
-  cout << endl;
 
   // Operator logika
   int hasil_logika;
@@ -84,7 +80,6 @@ int main() {
   cout << "18. 1 || 0 = " << hasil_logika << endl;
   // Operator logika
 
-  cout << endl;
 
   // Operator ternary
   int hasil_ternary = (16 != 4) ? true : false;
