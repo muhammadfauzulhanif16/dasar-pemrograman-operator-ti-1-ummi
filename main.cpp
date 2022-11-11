@@ -2,15 +2,15 @@
 using namespace std;
 
 int main() {
-  cout << "==== Operator aritmatika ====" << endl;
+  // Operator aritmatika
   cout << "1. 0 + 1 = " << 0 + 1 << endl;
   cout << "2. 7 - 1 " << 7 - 1 << endl;
   cout << "3. 2 * 2 = " << 2 * 2 << endl;
   cout << "4. 4 / 2 = " << 4 / 2 << endl;
-  cout << "==== Operator aritmatika ====" << endl << endl;
+  // Operator aritmatika
 
 
-  cout << "==== Operator aritmatika gabungan dengan penugasan ====" << endl;
+  // Operator aritmatika gabungan dengan penugasan
   int a = 0,
     b = 7,
     c = 2,
@@ -27,10 +27,10 @@ int main() {
 
   d /= 2;
   cout << "8. d = 4 -> d /= 2 = " << d << endl;
-  cout << "==== Operator aritmatika gabungan dengan penugasan ====" << endl << endl;
+  // Operator aritmatika gabungan dengan penugasan
 
 
-  cout << "==== Operator increment ====" << endl;
+  // Operator increment
   int e = 16,
     f = 16,
     g;
@@ -42,10 +42,10 @@ int main() {
   g = ++f;
   cout << "10. f = 16 -> ++f = " << f << endl;
   cout << "g = " << g << endl;
-  cout << "==== Operator increment ====" << endl << endl;
+  // Operator increment
 
 
-  cout << "==== Operator relasi ====" << endl;
+  // Operator relasi
   int h = 16,
     i = 4,
     hasil_relasi;
@@ -67,10 +67,10 @@ int main() {
 
   hasil_relasi = g <= h;
   cout << "16. 16 <= 4 = " << hasil_relasi << endl;
-  cout << "==== Operator relasi ====" << endl << endl;
+  // Operator relasi
 
 
-  cout << "==== Operator logika ====" << endl;
+  // Operator logika
   int hasil_logika;
 
   hasil_logika = 1 && 0;
@@ -78,12 +78,12 @@ int main() {
 
   hasil_logika = 1 || 0;
   cout << "18. 1 || 0 = " << hasil_logika << endl;
-  cout << "==== Operator logika ====" << endl << endl;
+  // Operator logika
 
 
-  cout << "==== Operator ternary ====" << endl;
+  // Operator ternary
   int hasil_ternary = (16 != 4) ? true : false;
   cout << "19. (16 != 4) ? true : false" << endl;
   cout << "Hasil = " << hasil_ternary << endl;
-  cout << "==== Operator ternary ====" << endl;
+  // Operator ternary
 }
