@@ -10,7 +10,7 @@ int main() {
   cout << "==== Operator aritmatika ====" << endl << endl;
 
 
-  cout << "==== Operator penugasan gabungan dengan aritmatika ====" << endl;
+  cout << "==== Operator aritmatika gabungan dengan penugasan ====" << endl;
   int a = 0,
     b = 7,
     c = 2,
@@ -27,7 +27,7 @@ int main() {
 
   d /= 2;
   cout << "8. d = 4 -> d /= 2 = " << d << endl;
-  cout << "==== Operator penugasan gabungan dengan aritmatika ====" << endl << endl;
+  cout << "==== Operator aritmatika gabungan dengan penugasan ====" << endl << endl;
 
 
   cout << "==== Operator increment ====" << endl;
