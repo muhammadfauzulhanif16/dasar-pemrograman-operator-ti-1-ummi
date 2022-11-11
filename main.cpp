@@ -2,24 +2,13 @@
 using namespace std;
 
 int main() {
-  int e = 16,
-      f = 16,
-      g;
-
-  g = e++;
-  cout << "9. e = 16 -> e++ = " << e << endl;
-  cout << "g = " << g << endl
-       << endl;
-
-  g = ++f;
-  cout << "10. f = 16 -> ++f = " << f << endl;
-  cout << "g = " << g << endl;
-}
-
+  // Operator aritmatika
   cout << "1. 0 + 1 = " << 0 + 1 << endl;
-  cout << "2. 7 - 1 " << 7 - 1 << endl;
+  cout << "2. 7 - 1 = " << 7 - 1 << endl;
   cout << "3. 2 * 2 = " << 2 * 2 << endl;
   cout << "4. 4 / 2 = " << 4 / 2 << endl;
+  // Operator aritmatika
+
 
   // Operator aritmatika gabungan dengan penugasan
   int a = 0,
