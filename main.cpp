@@ -83,6 +83,7 @@ int main() {
 
   cout << "==== Operator ternary ====" << endl;
   int hasil_ternary = (16 != 4) ? true : false;
-  cout << "19. (16 != 4) ? true : false. Hasil = " << hasil_ternary << endl;
+  cout << "19. (16 != 4) ? true : false" << endl;
+  cout << "Hasil = " << hasil_ternary << endl;
   cout << "==== Operator ternary ====" << endl;
 }
